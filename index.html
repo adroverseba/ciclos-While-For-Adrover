@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ciclos e iteraciones</title>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Elija su accion</h1>
+
+  <h2>Acumulacion de valores</h2>
+  <p>Selecciona un valor inicial para el cual dicho valor se sumara a si mismo y a su resultado tantas veces como lo
+    desee. Ej: si selecciona 5 y cantidad de veces 3, el resultado sera 5+5=10, 10+10=20, 20+20=40.</p>
+  <button onclick="addValue1()">ingresar numeros</button>
+  <button onclick="addNumber()">Resultado de Valores</button>
+  <h3>Resultado</h3>
+  <div id="valores"></div>
+
+  <hr>
+
+  <h2>Suma de Texto</h2>
+  <p>Concatenar un valor en cada repetición, realizando una salida por cada resultado, hasta que se ingresa “ESC”.</p>
+  <button onclick="addValue2()">ingresar Texto</button>
+  <button onclick="showValue()">Obtener texto completo</button>
+  <div id="text">
+  </div>
+
+  <hr>
+
+  <h2>Te saludo</h2>
+  <p>Decime como te llamas y te saludo cuantas veces quieras 😊👍</p>
+  <button onclick="getName()">Di Tu Nombre</button>
+  <button onclick="greet()">Obtener Saludo</button>
+  <div id="greedText"></div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
