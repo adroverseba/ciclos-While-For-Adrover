@@ -1,4 +1,4 @@
-# ciclos-While-For-Adrover
+# Bucles FOR y WHILE 
 En este proyecto se realiza una ejercitacion empleando bucles for y while haciendo uso de los elementos del **DOM** para solicitar e imprimir los valores.
 
 ## Como se usa 
